@@ -63,9 +63,13 @@ public class Main {
     public static void task6() {
         System.out.println("Задача №6 " + " Дата");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("DD:");
-        System.out.print("MM:");
-        System.out.print("YYYY.");
+        System.out.println("number");
+        String number = scanner.nextLine();
+        System.out.println("month");
+        String month = scanner.nextLine();
+        System.out.println("year");
+        String year = scanner.nextLine();
+        System.out.println(number + ":" + month + ":" + year + ".");
     }
 
     public static void task7(){
@@ -79,4 +83,6 @@ public class Main {
         int messages = scanner.nextInt();
         System.out.println("Привет," + name + " это твой помощник " + lastName + "." + " у тебя " + messages + " новых сообщений");
     }
+
+
 }
