@@ -79,4 +79,6 @@ public class Main {
         int messages = scanner.nextInt();
         System.out.println("Привет," + name + " это твой помощник " + lastName + "." + " у тебя " + messages + " новых сообщений");
     }
+
+
 }
